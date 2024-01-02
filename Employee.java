@@ -69,21 +69,21 @@ class Main {
     public static void main(String[] args) {
         // Create instances of Manager, Developer, and Designer
         System.out.println("===== Manager =====");
-        Manager manager = new Manager("Nandya M Daffa");
+        Manager manager = new Manager("Dede Gunawan");
         System.out.println("Manager Name: " + manager.getName());
         manager.work(); // Memanggil metode work pada manager
         
         System.out.println();
         
         System.out.println("===== Developer =====");
-        Developer developer = new Developer("Ayu");
+        Developer developer = new Developer("Daffa Ganteng");
         System.out.println("Developer Name: " + developer.getName());
         developer.work(); // Memanggil metode work pada developer
         
         System.out.println();
         
         System.out.println("===== Designer =====");
-        Designer designer = new Designer("Dede");
+        Designer designer = new Designer("Gonzales");
         System.out.println("Designer Name: " + designer.getName());
         designer.work();
     }
